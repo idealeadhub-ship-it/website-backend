@@ -1,0 +1,40 @@
+{
+  "kind": "singleType",
+  "collectionName": "support_info",
+  "info": {
+    "singularName": "support-info",
+    "pluralName": "support-infos",
+    "displayName": "Support Information",
+    "description": "Bank account and donation details"
+  },
+  "options": {
+    "draftAndPublish": false
+  },
+  "pluginOptions": {},
+  "attributes": {
+    "bank_name": {
+      "type": "string",
+      "required": true
+    },
+    "account_name": {
+      "type": "string",
+      "required": true
+    },
+    "account_number": {
+      "type": "string",
+      "required": true
+    },
+    "phone": {
+      "type": "string",
+      "required": true
+    },
+    "email": {
+      "type": "email",
+      "required": true
+    },
+    "message": {
+      "type": "richtext",
+      "description": "Custom message or instructions for supporters"
+    }
+  }
+}

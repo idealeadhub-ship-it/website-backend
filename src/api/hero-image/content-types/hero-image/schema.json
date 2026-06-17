@@ -1,0 +1,38 @@
+{
+  "kind": "collectionType",
+  "collectionName": "hero_images",
+  "info": {
+    "singularName": "hero-image",
+    "pluralName": "hero-images",
+    "displayName": "Hero Image",
+    "description": ""
+  },
+  "options": {
+    "draftAndPublish": false
+  },
+  "pluginOptions": {},
+  "attributes": {
+    "title": {
+      "type": "string",
+      "required": true
+    },
+    "description": {
+      "type": "text"
+    },
+    "image": {
+      "type": "media",
+      "multiple": false,
+      "allowedTypes": [
+        "images"
+      ]
+    },
+    "is_active": {
+      "type": "boolean",
+      "default": true
+    },
+    "display_order": {
+      "type": "integer",
+      "default": 0
+    }
+  }
+}
