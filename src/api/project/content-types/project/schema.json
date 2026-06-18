@@ -16,6 +16,10 @@
       "type": "string",
       "required": true
     },
+    "excerpt": {
+      "type": "string",
+      "maxLength": 200
+    },
     "description": {
       "type": "text"
     },
@@ -29,6 +33,10 @@
     "is_featured": {
       "type": "boolean",
       "default": false
+    },
+    "display_order": {
+      "type": "integer",
+      "default": 0
     }
   }
 }
