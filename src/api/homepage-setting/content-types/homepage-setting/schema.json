@@ -1,0 +1,36 @@
+{
+  "kind": "singleType",
+  "collectionName": "homepage_setting",
+  "info": {
+    "singularName": "homepage-setting",
+    "pluralName": "homepage-settings",
+    "displayName": "Homepage Settings",
+    "description": "Settings for homepage content (purpose image, impact stats)"
+  },
+  "options": {
+    "draftAndPublish": false
+  },
+  "pluginOptions": {},
+  "attributes": {
+    "purpose_section_image": {
+      "type": "media",
+      "multiple": false,
+      "required": false,
+      "allowedTypes": ["images"]
+    },
+    "impact_number": {
+      "type": "string",
+      "default": "1000+",
+      "required": true
+    },
+    "impact_label": {
+      "type": "string",
+      "default": "Leaders Trained",
+      "required": true
+    },
+    "purpose_heading": {
+      "type": "string",
+      "default": "Raising Credible Leaders for Global Impact"
+    }
+  }
+}

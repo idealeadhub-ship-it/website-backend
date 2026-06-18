@@ -42,6 +42,7 @@ export default {
         'api::service.service.find',
         'api::service.service.findOne',
         'api::support-info.support-info.find',
+        'api::homepage-setting.homepage-setting.find',
       ];
 
       for (const action of newPermissions) {
